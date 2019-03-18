@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "debug-ide": "./bin/debug-ide",
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "no tests for this lab!"
   },
   "repository": {
     "type": "git",
@@ -21,13 +21,5 @@
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/java-script-fetch-lab/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/java-script-fetch-lab#readme",
-  "devDependencies": {
-    "expect": "^1.20.2",
-    "fetch-mock": "^5.0.0",
-    "jsdom": "^9.4.1",
-    "mocha": "^5.2.0",
-    "mocha-multi": "^1.0.1",
-    "node-fetch": "^1.5.3"
-  }
+  "homepage": "https://github.com/learn-co-curriculum/java-script-fetch-lab#readme"
 }

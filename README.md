@@ -151,14 +151,13 @@ else. Always read the docs!
 We're going to be making an app to allow us to fork a repo and create issues on
 that fork. Basic HTML is provided in `index.html` along with some JavaScript in
 `index.js`. Your job will be to follow the instructions and complete the code to
-make it work. Don't forget to run it in the browser to see it in action, and run
-the tests to make sure they pass!
+make it work.
 
 You'll need to read the GitHub API documentation to see how each function works.
 
 **_Note_**: Running it will require that you return your personal token in
-`getToken`, however, the tests will **not** pass if you leave your token
-there, so before you commit and push, make sure you set `return ''` in the
+`getToken`, however, you do not want to give this out to just anybody,
+so before you commit and push, make sure you set `return ''` in the
 `getToken` function. NEVER give out your token or check it into GitHub!
 
 1.  Fork [this][fetchlab] repository in the `forkRepo` function. Read more about
@@ -186,9 +185,6 @@ there, so before you commit and push, make sure you set `return ''` in the
 
 6.  When everything is working, remove your GitHub token and run `learn`.
 
-**Note:** When running `learn` on this lesson, if test errors are not
-displaying, make sure to follow Step 15 of our [Mac OSX environment set up][setup]
-and are using the most recent versions of node and nvm.
 
 ## Resources
 
